@@ -1,0 +1,15 @@
+SELECT * FROM Products
+
+ SELECT ProductName, UnitsInStock FROM Products WHERE UnitsInStock >= 40
+
+ SELECT LastName, FirstName, City FROM Employees WHERE City LIKE '%London%'
+
+SELECT * FROM Orders ORDER BY Freight DESC
+
+SELECT * FROM Orders WHERE Freight >= 90 AND Freight <= 200
+
+SELECT * FROM Products WHERE CategoryID = 1
+
+ SELECT * FROM [Order Details] WHERE Discount > 0
+
+ Select * FROM Orders WHERE CustomerID LIKE '%BOTTM%' and Freight >= 50
